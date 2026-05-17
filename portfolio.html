@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mayur Mahajan - Software Developer & Android Developer Portfolio" />
+  <title>Mayur Mahajan — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">MM</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home"           class="nav-link">Home</a></li>
+        <li><a href="#about"          class="nav-link">About</a></li>
+        <li><a href="#skills"         class="nav-link">Skills</a></li>
+        <li><a href="#projects"       class="nav-link">Projects</a></li>
+        <li><a href="#experience"     class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#education"      class="nav-link">Education</a></li>
+        <li><a href="#contact"        class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Mayur Mahajan</h1>
+        <div class="typing-wrap">
+          <span class="typing-text" id="typingText"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-desc">
+          Last-year Computer Engineering student passionate about building scalable web &amp; Android applications.
+          Cummins India Scholar · MERN Stack · Java · Python.
+        </p>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/mayurmahajan495" target="_blank" rel="noopener" class="social-btn">LinkedIn</a>
+          <a href="#" class="social-btn">GitHub</a>
+          <a href="mailto:mayur.mahajan492005@gmail.com" class="social-btn">Email</a>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#" class="btn btn-outline">Download CV</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-dots"><span></span><span></span><span></span></div>
+          <pre class="code-body"><span class="c-kw">const</span> developer <span class="c-op">=</span> {
+  <span class="c-prop">name</span>: <span class="c-str">"Mayur Mahajan"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"MERN"</span>, <span class="c-str">"Java"</span>, <span class="c-str">"Android"</span>],
+  <span class="c-prop">passion</span>: <span class="c-str">"Scalable apps"</span>,
+  <span class="c-prop">available</span>: <span class="c-kw">true</span>
+};</pre>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about section-pad bg-alt">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a passionate developer with a strong foundation in Java, Python, C++, and the MERN stack. I love transforming ideas into real-world applications that are efficient, user-friendly, and scalable.</p>
+          <p>I enjoy solving problems through clean code — whether it's designing intuitive Android apps, developing responsive web interfaces, or optimising backend performance. My hands-on experience with Git/GitHub helps me collaborate effectively and follow solid development practices.</p>
+          <p>What drives me is continuous learning and exploring new technologies. I'm currently seeking internship opportunities where I can apply my skills and contribute to meaningful projects.</p>
+          <p class="highlight-badge">🎓 Cummins India Scholar — Selected for academic excellence &amp; leadership potential</p>
+        </div>
+        <div class="about-cards">
+          <div class="info-card reveal">
+            <h3>Education</h3>
+            <p><strong>BTech</strong> — Computer Engineering<br>SPPU · Sep 2024 – Jun 2027</p>
+            <p><strong>Diploma</strong> — Computer Engineering<br>AISSMS Polytechnic · 2021 – 2024</p>
+          </div>
+          <div class="info-card reveal">
+            <h3>Location</h3>
+            <p>📍 Pune<br>Maharashtra, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="education section-pad">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <h3>BTech — Computer Engineering</h3>
+            <p class="edu-inst">Savitribai Phule Pune University (SPPU)</p>
+            <p class="edu-period">Sep 2024 – Jun 2027</p>
+            <p class="edu-desc">Focused on core computing theory, data structures, algorithms, and systems design to build a strong foundation in software engineering.</p>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">📘</div>
+          <div>
+            <h3>Diploma — Computer Engineering</h3>
+            <p class="edu-inst">AISSMS Polytechnic, Pune</p>
+            <p class="edu-period">2021 – 2024</p>
+            <p class="edu-desc">Covered fundamental engineering principles, mathematics, and foundational programming concepts to support advanced study in computer science.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="skills section-pad">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-cat reveal">
+          <h3>Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-row"><span>HTML5</span><div class="bar"><div class="bar-fill" style="--w:95%"></div></div></div>
+            <div class="skill-row"><span>CSS3</span><div class="bar"><div class="bar-fill" style="--w:90%"></div></div></div>
+            <div class="skill-row"><span>JavaScript</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+            <div class="skill-row"><span>React.js</span><div class="bar"><div class="bar-fill" style="--w:80%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal">
+          <h3>Backend</h3>
+          <div class="skill-list">
+            <div class="skill-row"><span>Java</span><div class="bar"><div class="bar-fill" style="--w:90%"></div></div></div>
+            <!-- <div class="skill-row"><span>Node.js</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+            <div class="skill-row"><span>Express.js</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div> -->
+            <div class="skill-row"><span>Python</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal">
+          <h3>Database &amp; Tools</h3>
+          <div class="skill-list">
+            <div class="skill-row"><span>MySQL</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+            <div class="skill-row"><span>MongoDB</span><div class="bar"><div class="bar-fill" style="--w:80%"></div></div></div>
+            <div class="skill-row"><span>Hibernate ORM</span><div class="bar"><div class="bar-fill" style="--w:80%"></div></div></div>
+            <div class="skill-row"><span>Git / GitHub</span><div class="bar"><div class="bar-fill" style="--w:90%"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-cat reveal">
+          <h3>Mobile &amp; Other</h3>
+          <div class="skill-list">
+            <div class="skill-row"><span>Android Dev</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+            <div class="skill-row"><span>REST APIs</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+            <div class="skill-row"><span>C++</span><div class="bar"><div class="bar-fill" style="--w:75%"></div></div></div>
+            <div class="skill-row"><span>MERN Stack</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="projects section-pad bg-alt">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-thumb" style="--g: linear-gradient(135deg,#667eea,#764ba2)"></div>
+          <div class="project-body">
+            <h3>Smart Attendance Management System</h3>
+            <p>Real-time attendance tracking with automated reporting and analytics dashboard for educational institutions.</p>
+            <div class="tags">
+              <span>Java</span><span>MySQL</span><span>Spring Boot</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">GitHub</a>
+              <a href="#" class="btn-link btn-link-fill">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb" style="--g: linear-gradient(135deg,#f093fb,#f5576c)"></div>
+          <div class="project-body">
+            <h3>Vaccination Management System</h3>
+            <p>Web app for managing vaccination records, appointments, and health tracking with secure authentication.</p>
+            <div class="tags">
+              <span>MERN Stack</span><span>MongoDB</span><span>React</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">GitHub</a>
+              <a href="#" class="btn-link btn-link-fill">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb" style="--g: linear-gradient(135deg,#4facfe,#00f2fe)"></div>
+          <div class="project-body">
+            <h3>Root Length Analysis App</h3>
+            <p>Python image-processing application for measuring plant root lengths with scientific accuracy using OpenCV.</p>
+            <div class="tags">
+              <span>Python</span><span>OpenCV</span><span>Image Processing</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">GitHub</a>
+              <a href="#" class="btn-link btn-link-fill">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-thumb" style="--g: linear-gradient(135deg,#fa709a,#fee140)"></div>
+          <div class="project-body">
+            <h3>Expense Tracker Mobile Application</h3>
+            <p>Expense tracker mobile app with intuitive UI, SQLite Database integration, real-time expense logging and optimized performance.</p>
+            <div class="tags">
+              <span>Android</span><span>Java</span><span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link">GitHub</a>
+              <a href="#" class="btn-link btn-link-fill">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="experience section-pad">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-period">Feb 2025 – Mar 2025 · 2 months</span>
+            <h3>Android Intern</h3>
+            <p class="tl-company">VirtuNexa</p>
+            <p>Developed Android applications with focus on user experience and performance. Implemented modern Android development practices and collaborated with cross-functional teams.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-period">Jun 2023 – Jul 2023 · 2 months</span>
+            <h3>Software Intern</h3>
+            <p class="tl-company">Sofcon India Pvt. Ltd.</p>
+            <p>Gained practical experience in software development. Worked on real-world projects and learned industry best practices and development methodologies.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="certifications section-pad bg-alt">
+    <div class="container">
+      <h2 class="section-title">Certifications &amp; Achievements</h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon">🚁</div>
+          <h3>Drone Bootcamp</h3>
+          <p>Advanced training in drone technology and applications</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">🤖</div>
+          <h3>AI Bootcamp</h3>
+          <p>Comprehensive AI and Machine Learning fundamentals</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">☁️</div>
+          <h3>Oracle Cloud Infrastructure 2025</h3>
+          <p>OCI certification covering cloud services and deployment</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">✨</div>
+          <h3>Certified AI Foundations Associate</h3>
+          <p>Oracle certified AI foundations and core concepts</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact section-pad bg-alt">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's Connect</h3>
+          <p>I'm always open to new opportunities, collaborations, and interesting projects. Feel free to reach out!</p>
+          <ul class="contact-list">
+            <li>
+              <span class="c-label">📧 Email</span>
+              <a href="mailto:mayur.mahajan492005@gmail.com">mayur.mahajan492005@gmail.com</a>
+            </li>
+            <li>
+              <span class="c-label">💼 LinkedIn</span>
+              <a href="https://www.linkedin.com/in/mayurmahajan495" target="_blank" rel="noopener">linkedin.com/in/mayurmahajan495</a>
+            </li>
+            <li>
+              <span class="c-label">📍 Location</span>
+              <span>Pune , Maharashtra, India</span>
+            </li>
+          </ul>
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/mayurmahajan495" target="_blank" rel="noopener" class="social-pill">LinkedIn</a>
+            <a href="#" class="social-pill">GitHub</a>
+            <a href="mailto:mayur.mahajan492005@gmail.com" class="social-pill">Email</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">MM</p>
+      <p>&copy; 2025 Mayur Mahajan. All rights reserved.</p>
+      <p>Designed &amp; Built with ❤️ · Full-Stack Developer</p>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
