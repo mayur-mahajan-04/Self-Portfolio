@@ -5,10 +5,8 @@
 // ===== TYPING ANIMATION =====
 const TYPING_TEXTS = [
   'Full-Stack Developer',
-  'MERN Stack Developer',
   'Java Programmer',
   'Android Developer',
-  'Python Developer'
 ];
 
 let tIdx = 0, cIdx = 0, deleting = false;
